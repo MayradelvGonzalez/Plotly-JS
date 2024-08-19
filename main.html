@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Proyect</title>
     <script src="https://cdn.plot.ly/plotly-2.34.0.min.js" charset="utf-8"></script>
 </head>
 <body>
     <header>
-<h1>Title od this proyect</h1>
+<h1>Title of this proyect</h1>
     </header>
- <nav id="navegacion">
+ <nav class="mimenu" id="menu">
     <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>More</li>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">More</a></li>
+        <li><a href="javascript:void(0);" class="icono" onclick="miMenu()">menu
+            <i class="fa fa-bars fa-2x"></i> 
+        </a></li>
     </ul>
  </nav>
+ <section>
+    <h2>this is a subtitle</h2>
+    <div id="miplot" style="width: 100%; max-width: 600px;"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, excepturi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ullam quia eaque sequi ipsum doloremque fugit quibusdam nesciunt minus repellat!</p>
+ </section>
 </body>
 </html>
