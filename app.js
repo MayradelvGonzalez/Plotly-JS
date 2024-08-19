@@ -19,7 +19,7 @@ Plotly.newPlot("miplot", datos, titulo);
 
 
 const arrayxx = ["Maas", "Banaas","Pera","Gundas","Uvs"];
-const arrayyy = ["25","25","15","20","10"];
+const arrayyy = ["15","5","25","20","10"];
 
 const titulo2={title: "stock de productos"};
 

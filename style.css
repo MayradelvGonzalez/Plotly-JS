@@ -3,12 +3,14 @@ header {
     padding: 40px;
     text-align: center;
     font-size: 20px;    
+    
 }
+
 
 .mimenu {
   overflow: hidden;
-  background-color: #333;
-    margin-top: -10px
+  background-color: #3d3636;
+    /* margin-top: -20px; */
 }
 
 .mimenu li {
@@ -18,7 +20,13 @@ header {
 .mimenu ul {
     margin-top: 0;
 }
-
+ #container{
+    border-color: greem 0.1em solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
 .mimenu a {
   float: left;
   display: block;
@@ -26,7 +34,7 @@ header {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .mimenu a:hover {
@@ -43,7 +51,9 @@ header {
   display: none;
     margin-top: -16px;
 }
-
+/* #mih2{
+ 
+} */
 @media screen and (max-width: 600px) {
   .mimenu a {
       display: none;
@@ -90,69 +100,22 @@ header {
     padding: 10px;
 }
 
-.seccion1 {
-    background-color: chocolate;
-    width: 70%;
-    float: left;
-    height: 750px;
-}
 
 .miarticulo {
-    padding: 20px;
+    padding: 22px;
+    
 }
 
-.seccion2 {
-    width: 30%;
-    background-color: lightslategray;
-    float: left;
-    height: 750px;
-}
-
-.miaside {
-    padding: 20px;
-}
-
-.miimagen {
-    width: 100%;
-    border: 4px solid white;
-}
 
 footer {
-    background-color: crimson;
+    background-color: rgb(239, 50, 88);
     padding: 10px;
     text-align: center;
     color: white;
     clear: left;
 }
 
-.mih1 {
-    font-size: 7vw;
-}
 
-.miformula {
-    color: red;
-}
 
-.mikbd {
-    font-size: 20px;
-}
 
-.formulario{
-    text-align: center;
-    margin-bottom: 50px;
-        
-}
 
-.miformulario {
-    border: 5px solid #000000;
-    background-color: burlywood;
-}
-
-.negrita {
-    font-weight: bold;
-}
-
-#nombrepostre {
-  color: purple;
-  font-size: 25px;
-}
